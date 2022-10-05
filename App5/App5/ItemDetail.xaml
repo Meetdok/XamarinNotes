@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.ItemDetail">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="entryName" Placeholder="Название" />
+            <Button Text="Сохранить" Clicked="Save"/>
+            <Button Text="Удалить" Clicked="Delete"/>
+            <Button Text="Добавить" Clicked="Add"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
